@@ -1,0 +1,17 @@
+/*THIS IS DONE SO THAT ALL THE ANIMATION WILL HAVE A GENEREAL TRANSITION*/
+*{
+	transition: 300ms all ease-in;
+}
+/*THIS IS FOR THE EXPLORE BUTTON UNDER THE ROOMS JUMBOTRON */
+.explore-button{ 
+	border-radius: 20px;
+ }
+ .explore-button:hover{
+ 	border-radius: 5px;
+	transition: 300ms all ease-out;
+ }
+
+/*THIS IS FOR THE TESTIMONIALS */
+ .block-testimony{
+ 	text-align: justify-all !important;
+ }
