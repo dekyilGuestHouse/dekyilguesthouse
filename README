@@ -1,1 +1,3 @@
-Wbsite for Dekyil guest house: can be accessed at https://dekyilguesthouse.com/
+Website for Dekyil guest house: can be accessed at https://dekyilguesthouse.com/
+
+Any changes to the website can be made and pushed to master branch. The github-pages will automatically update it using the master branch.
