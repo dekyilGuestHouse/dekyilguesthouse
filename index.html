@@ -8,7 +8,7 @@
   <meta name="description"
     content="Dekyil Guest House is a hotel in Bumthang that is family owned and run. The hotel features a scenic view of the Chakhar valley and is just 5 minutes away from the main town.">
 
-  <script src="https://kit.fontawesome.com/61791d24eb.js" crossorigin="anonymous"></script>
+  <script async src="https://kit.fontawesome.com/61791d24eb.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="icon" href="./images/tab-logo.png">
@@ -32,18 +32,16 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
-  <script>
+  <script async>
     function shower() {
       let x = document.getElementById("moreReview");
       let y = document.getElementById("showButton");
       if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "none";
-        console.log("showing it rn")
       } else {
         x.style.display = "none";
         y.style.display = "block";
-        console.log("going to hide it ")
       }
     }
   </script>
@@ -105,7 +103,6 @@
 
 
     <div class="slide-one-item home-slider owl-carousel">
-
       <div class="site-blocks-cover overlay" style="background-image: url(images/drone.jpg);" data-aos="fade"
         data-stellar-background-ratio="0.5">
         <div class="container">
@@ -155,8 +152,8 @@
         <div class="row ">
           <div class="col-md-6 col-lg-6 mb-5">
             <div class="hotel-room text-center">
-              <a href="suite.html" class="d-block mb-0 thumbnail"><img src="images/suite.jpg" alt="Image"
-                  class="img-fluid"></a>
+              <a href="suite.html" class="d-block mb-0 thumbnail"><img loading="lazy" decoding="async"
+                  src="images/suite.jpg" alt="Suite Room" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="suite.html">Suite Room</a></h3>
                 <strong class="price">Nu.6500+ * / per night</strong>
@@ -169,8 +166,8 @@
           </div>
           <div class="col-md-6 col-lg-6 mb-5">
             <div class="hotel-room text-center">
-              <a href="deluxe.html" class="d-block mb-0 thumbnail"><img src="images/deluxe.jpg" alt="Image"
-                  class="img-fluid"></a>
+              <a href="deluxe.html" class="d-block mb-0 thumbnail"><img loading="lazy" decoding="async"
+                  src="images/deluxe.jpg" alt="Deluxe Room" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="deluxe.html">Deluxe Room</a></h3>
                 <strong class="price">Nu.4500+ * / per night</strong>
@@ -196,8 +193,8 @@
                   Airlines </a>
               </h2>
             </div>
-            <div class="col-md-3 mx-auto text-center" style="margin-top: -10px"><img src="images/drukair_logo.png"
-                alt="drukair-logo" class="img-fluid">
+            <div class="col-md-3 mx-auto text-center" style="margin-top: -10px"><img decoding="async" loading="lazy"
+                src="images/drukair_logo.png" alt="drukair-logo" class="img-fluid">
             </div>
           </div>
         </div>
