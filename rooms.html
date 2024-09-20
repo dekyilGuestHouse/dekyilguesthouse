@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="build/css/bootstrap.min.css">
-  <link rel="stylesheet" href="build/css/magnific-popup.css">
   <link rel="stylesheet" href="build/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700"
     as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -101,8 +100,8 @@
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-5">
             <div class="hotel-room text-center">
-              <a href="suite.html" class="d-block mb-0 thumbnail"><img src="images/suite.webp" alt="Image"
-                  class="img-fluid"></a>
+              <a href="suite.html" class="d-block mb-0 thumbnail"><img loading="eager" decoding="async"
+                  src="images/suite.webp" alt="Suite Room" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="suite.html">Suite Room</a></h3>
                 <strong class="price">Nu.5500+ * / per night</strong>
@@ -112,8 +111,8 @@
           </div>
           <div class="col-md-6 col-lg-6 mb-5">
             <div class="hotel-room text-center">
-              <a href="deluxe.html" class="d-block mb-0 thumbnail"><img src="images/deluxe.webp" alt="Image"
-                  class="img-fluid"></a>
+              <a href="deluxe.html" class="d-block mb-0 thumbnail"><img loading="eager" decoding="async"
+                  src="images/deluxe.webp" alt="Deluxe Room" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="deluxe.html">Deluxe Room</a></h3>
                 <strong class="price">Nu.3500+ * / per night</strong>
@@ -197,42 +196,12 @@
     </footer>
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
-
-
-  <script src="js/mediaelement-and-player.min.js"></script>
-
-  <script src="js/main.js"></script>
-
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
-
-      for (var i = 0; i < total; i++) {
-        new MediaElementPlayer(mediaElements[i], {
-          pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-          shimScriptAccess: 'always',
-          success: function () {
-            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-            for (var j = 0; j < targetTotal; j++) {
-              target[j].style.visibility = 'visible';
-            }
-          }
-        });
-      }
-    });
-  </script>
+  <script defer src="js/jquery-3.3.1.min.js"></script>
+  <script defer src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script defer src="js/jquery.stellar.min.js"></script>
+  <script fetchpriority="low" defer src="js/jquery.magnific-popup.min.js"></script>
+  <script defer src="js/aos.js"></script>
+  <script defer src="js/main.js"></script>
 
 </body>
 
