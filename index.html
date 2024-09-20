@@ -29,20 +29,11 @@
 
   <link rel="stylesheet" href="css/aos.css">
 
-  <link rel="stylesheet" href="css/style.css">
-  <script async>
-    function shower() {
-      let x = document.getElementById("moreReview");
-      let y = document.getElementById("showButton");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none";
-      } else {
-        x.style.display = "none";
-        y.style.display = "block";
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="build/css/style.css">
+  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="css/style.css">
+  </noscript>
 </head>
 
 <body>
