@@ -97,7 +97,7 @@ a {
   background: transparent !important; }
   .site-navbar .site-logo {
     font-weight: 200;
-    font-family: "Playfair Display"; }
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif; }
     .site-navbar .site-logo a {
       font-weight: 200;
       font-size: 26px; }
@@ -297,7 +297,7 @@ a {
   .site-blocks-cover h1 {
     color: #fff;
     font-size: 3rem;
-    font-family: "Playfair Display"; }
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif; }
     @media (min-width: 768px) {
       .site-blocks-cover h1 {
         font-size: 4rem;
@@ -346,7 +346,7 @@ a {
 .section-heading h2 {
   position: relative;
   display: inline-block;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
   font-size: 40px; }
   .section-heading h2:before, .section-heading h2:after {
     content: "";
