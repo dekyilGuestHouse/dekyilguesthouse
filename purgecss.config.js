@@ -6,6 +6,7 @@ module.exports = {
         "css/style.css",
         "css/owl.carousel.min.css",
         "css/jquery-ui.css",
+        "css/animate.css",
     ],
     output: "build/css",
 }
