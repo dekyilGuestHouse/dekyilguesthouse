@@ -124,22 +124,26 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_205/deluxe2.webp" class="image-popup img-opacity">
-                            <img src="images/room_205/deluxe2.webp" alt="Image" class="img-fluid">
+                            <img loading="eager" decoding="async" src="images/room_205/deluxe2.webp" alt="Image"
+                                class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_205/deluxe_205_corner_view.webp" class="image-popup img-opacity">
-                            <img src="images/room_205/deluxe_205_corner_view.webp" alt="Image" class="img-fluid">
+                            <img loading="eager" decoding="async" src="images/room_205/deluxe_205_corner_view.webp"
+                                alt="Image" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_205/deluxe_205_Jakar_view.webp" class="image-popup img-opacity">
-                            <img src="images/room_205/deluxe_205_Jakar_view.webp" alt="Image" class="img-fluid">
+                            <img loading="eager" decoding="async" src="images/room_205/deluxe_205_Jakar_view.webp"
+                                alt="Image" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_205/deluxe_205.webp" class="image-popup img-opacity">
-                            <img src="images/room_205/deluxe_205.webp" alt="Image" class="img-fluid">
+                            <img loading="eager" decoding="async" src="images/room_205/deluxe_205.webp" alt="Image"
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -157,12 +161,14 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_207/room_207_bed.webp" class="image-popup img-opacity">
-                            <img src="images/room_207/room_207_bed.webp" alt="Image" class="img-fluid">
+                            <img loading="lazy" decoding="async" src="images/room_207/room_207_bed.webp" alt="Image"
+                                class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
                         <a href="images/room_207/room_207.webp" class="image-popup img-opacity">
-                            <img src="images/room_207/room_207.webp" alt="Image" class="img-fluid">
+                            <img loading="lazy" decoding="async" src="images/room_207/room_207.webp" alt="Image"
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -241,8 +247,6 @@
                         <p>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            <script data-cfasync="false"
-                                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                             <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This
                             template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a
                                 href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -255,42 +259,12 @@
         </footer>
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/aos.js"></script>
-
-
-    <script src="js/mediaelement-and-player.min.js"></script>
-
-    <script src="js/main.js"></script>
-
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
-
-            for (var i = 0; i < total; i++) {
-                new MediaElementPlayer(mediaElements[i], {
-                    pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-                    shimScriptAccess: 'always',
-                    success: function () {
-                        var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-                        for (var j = 0; j < targetTotal; j++) {
-                            target[j].style.visibility = 'visible';
-                        }
-                    }
-                });
-            }
-        });
-    </script>
+    <script defer src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script defer src="js/jquery.stellar.min.js"></script>
+    <script fetchpriority="low" defer src="js/jquery.magnific-popup.min.js"></script>
+    <script defer src="js/aos.js"></script>
+    <script defer src="js/main.js"></script>
 
 </body>
 
